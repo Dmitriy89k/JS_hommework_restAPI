@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h2>Countries:</h2>
+    <form>
+      <input id ="country_name" type="text" placeholder="name">
+      <button id="submit_form" type="button">ADD</button>
+    </form>
+    <ul id='countries'></ul>
+
+    <h2>Authors:</h2>
+    <form>
+      <input id ="author" type="text" placeholder="author">
+      <input id ="author-bio" type="text" placeholder="biografy">
+      <select id="country-select" size="1"></select>
+      <button id="button-authors" type="button">Add</button>
+    </form>
+    <ul id='authors'></ul>
+
+    <h2>Books:</h2>
+    <form>
+      <input id ="books_name" type="text" placeholder="name">
+      <input id ="books_description" type="text" placeholder="description">
+      <input id ="books_year" type="text" placeholder="year">
+      <select id="author-select" size="1"></select>
+      <button id="submit_form" type="button">ADD</button>
+    </form>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js'></script>
+  <script src="main.js" type="text/javascript"></script>
+  </body>
+
+</html>
